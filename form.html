@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Complex HTML Form</h1>
+   <form action="/action.php">
+    <label for="name">Name:</label>
+    <input type="name" placeholder="Enter your name:" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" placeholder= "Enter your email"  name="email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" placeholder="Enter Password"><br><br>
+    <label for="age">Age:</label>
+    <input type="age" name="age" placeholder="Enter your Age"><br><br>
+    <fieldset>
+       <label for="gender">Gender</label>
+       <input type="radio" name="gender">Male
+       <input type="radio" name="gender">Female
+       <input type="radio" name="gender">other
+    </fieldset>   <br>
+    <input type="checkbox"> Subscibe to newsletter 
+    <br><br>
+    <label for="country">country:</label>
+    <select name="country">
+        <option value="country">select your country</option>
+        <option value="country">India</option>
+        <option value="country">Africa</option>
+        <option value="country">America</option>
+        <option value="country">Pakistan</option>
+    </select><br><br>
+    <h4>biography:</h4>
+    <fieldset>
+    <label for="biography"></label>
+</fieldset><br>
+    <label for="pic">upload a profile pic</label>
+    <input type="file" name="pic"><br><br>
+    <label for="date">Date-of-Birth:</label>
+    <input type="date" name="date" ><br><br>
+    <label for="app">Appointment-Time:</label>
+    <input type="time" name="app" ><br><br>
+    <label for="vol">Volume Level:</label>
+    <input type="range" name="vol"><br><br>
+    <label for="color">Favourite color:</label>
+    <input type="color" name="color" ><br><br>
+    <label for="button"></label>
+    <input type="submit" name="button">
+    <input type="reset" name="button">
+</form>
+</body>
+</html>
